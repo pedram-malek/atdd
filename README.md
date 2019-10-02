@@ -10,7 +10,11 @@ Please install these programs:
 * [Node.js](https://nodejs.org/en/) - a javascript runtime environment
 * [chrome](https://www.google.com/chrome/) - google's chrome browser
 
-### Install Node Packages
+#### Clone this repository from your terminal / console window
+```shell script
+git clone https://github.com/pedram-malek/atdd.git
+```
+#### Install Node Packages
 ```shell
 npm install
 ```
@@ -25,11 +29,9 @@ npm run e2e
 a cypress (chrome) browser should open shortly and have a file called
 >Google.feature
 
-click it and it should run the feature file test
-
-you should see:
+click it and it should run the feature file test and you should see:
 
 >ASSERT
 expected Google to include Google
 
-if this works you are setup!
+*if this works you are setup!*
