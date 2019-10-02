@@ -2,7 +2,7 @@
 
 This repository is for Pedram's Agile Software Developer training course
 
-# Requirements:
+## Requirements:
 
 Please install these programs: 
 
@@ -10,20 +10,26 @@ Please install these programs:
 * [Node.js](https://nodejs.org/en/) - a javascript runtime environment
 * [chrome](https://www.google.com/chrome/) - google's chrome browser
 
-# install node packages by running
- 
+### Install Node Packages
+```shell
 npm install
+```
 
-# to run the test
 
+#### To try it
+```shell
 npm run e2e
+```
 
-# a browser should open shortly and have a [Google.feature] file, 
-# click it and it should run the feature file test
 
-#you should see:
+a cypress (chrome) browser should open shortly and have a file called
+>Google.feature
 
-*ASSERT
-expected Google to include Google*
+click it and it should run the feature file test
 
-#if this works you are setup!
+you should see:
+
+>ASSERT
+expected Google to include Google
+
+if this works you are setup!
